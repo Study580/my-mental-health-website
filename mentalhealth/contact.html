@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyle.css" />
+    <script src="cind.js"></script>
+
+  </head>
+  <body>
+    <main class="main-content">
+    <header class="nav-header">
+        <img
+        src="C:\Users\User\Desktop\mentalhealth\images\STK-20250314-WA0022.webp"
+
+          alt="Logo"
+          class="nav-logo"
+        />
+        <nav class="main-nav">
+          <a href="mindex.html" class="nav-link">HOME</a>
+          <a href="about.html" class="nav-link">ABOUT</a>
+          <div class="nav-group">
+            <a href="services.html" class="nav-link">SERVICES</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+          </div>
+        </nav>
+      </header>
+      
+      <main class="main-content">
+        <section class="contact-section">
+          <h1 class="contact-title">Contact Us</h1>
+          <p class="contact-description">
+            Use this form to reach out to our Customer Success Team regarding any
+            questions, concerns, or feedback.
+          </p>
+        </section>
+      
+        <form class="contact-form">
+          <fieldset class="contact-type">
+            <legend class="contact-type-title">Type of contact</legend>
+            <div class="radio-group">
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="client"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="client" class="radio-label"
+                  >I am a registered client and I need support.</label
+                >
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="therapist"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="therapist" class="radio-label"
+                  >I am a therapist and I need support.</label
+                >
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="applicant"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="applicant" class="radio-label"
+                  >I am a therapist interested in joining or a current
+                  applicant.</label
+                >
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="service"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="service" class="radio-label"
+                  >I have a question about the service.</label
+                >
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="billing"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="billing" class="radio-label"
+                  >I have a billing related question.</label
+                >
+              </div>
+              <div class="radio-container">
+                <input
+                  type="radio"
+                  id="business"
+                  name="contact-type"
+                  class="radio-input"
+                />
+                <label for="business" class="radio-label"
+                  >I have a business-related inquiry.</label
+                >
+              </div>
+            </div>
+          </fieldset>
+      
+          <div class="form-group">
+            <input
+              type="text"
+              id="firstname"
+              class="form-input"
+              placeholder="First name"
+              required
+            />
+            <input
+              type="text"
+              id="lastname"
+              class="form-input"
+              placeholder="Last name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              class="form-input"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              id="message"
+              class="form-input form-textarea"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+      
+          <button type="submit" class="submit-button">SUBMIT</button>
+        </form>
+      
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img
+              src="C:\Users\User\Desktop\mentalhealth\images\STK-20250314-WA0022.webp"
+
+                alt="Footer Logo"
+                class="footer-logo-img"
+              />
+            </div>
+            <div class="footer-links">
+              <nav class="footer-nav">
+                <a href="#" class="footer-nav-link">SERVICES</a>
+                <a href="#" class="footer-nav-link">ABOUT</a>
+              </nav>
+              <div class="footer-menu">
+                <ul class="footer-list">
+                  <li>Individual therapy</li>
+                  <li>Family counseling</li>
+                  <li>Group therapy</li>
+                  <li>Career counseling</li>
+                </ul>
+                <ul class="footer-list">
+                  <li>Therapists</li>
+                  <li>Counselors</li>
+                  <li>Connect with people</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </main>  
+  </body>
+</html>

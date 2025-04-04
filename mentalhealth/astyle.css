@@ -1,0 +1,268 @@
+
+
+.main-nav {
+  background-color: rgba(4, 67, 12, 1);
+  display: flex;
+  width: 100%;
+  padding: 5px 44px;
+  align-items: stretch;
+  gap: 20px;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  aspect-ratio: 1.12;
+  object-fit: contain;
+  object-position: center;
+  width: 45px;
+  flex-shrink: 0;
+}
+
+.nav-links {
+  display: flex;
+  margin: auto 0;
+  align-items: stretch;
+  gap: 9px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 246, 247);
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+  }
+  
+  .main-content {
+    background-color: rgba(255, 251, 239, 1);
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 55px;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+  }
+  /* Hero Section */
+  .hero-image {
+    aspect-ratio: 1.21;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    margin-top: 9px;
+  }
+  
+  .hero-title {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-family:
+      Abyssinica SIL,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 37px;
+  }
+  
+  /* Purpose Section */
+  .purpose-section {
+    border-radius: 2px;
+    background-color: rgba(161, 185, 141, 1);
+    margin-top: 14px;
+    padding: 8px 44px 32px;
+    font-family:
+      Abyssinica SIL,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+  }
+  
+  .purpose-image {
+    aspect-ratio: 1.5;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .purpose-title {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 14px;
+    font-weight: 400;
+  }
+  
+  .purpose-text {
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  
+  /* Approach Section */
+  .approach-section {
+    margin-top: 65px;
+    padding: 0 45px;
+    font-family:
+      Abyssinica SIL,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    text-align: center;
+  }
+  
+  .approach-title {
+    color: rgba(16, 81, 24, 1);
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .approach-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    margin-top: 52px;
+    font-weight: 400;
+  }
+  
+  /* Team Section */
+  .team-section {
+    border-radius: 2px;
+    background-color: rgba(161, 185, 141, 1);
+    margin-top: 33px;
+    padding: 36px 43px 176px;
+    font-family:
+      Abyssinica SIL,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+  }
+  
+  .team-title {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .team-text {
+    font-size: 14px;
+    margin-top: 28px;
+    font-weight: 400;
+  }
+  
+  .team-image {
+    aspect-ratio: 3.31;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: -35px;
+  }
+  
+  /* Footer */
+  .footer {
+    border-radius: 10px;
+    background-color: rgba(4, 67, 12, 1);
+    margin-top: 121px;
+    width: 100%;
+    padding: 27px 48px 122px;
+  }
+  
+  .footer-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-logo-column {
+    width: 28%;
+  }
+  
+  .footer-logo {
+    aspect-ratio: 1.13;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+  }
+  
+  .footer-links-column {
+    width: 72%;
+    font-family:
+      Adamina,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  
+  .footer-nav {
+    display: flex;
+    width: 152px;
+    max-width: 100%;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .footer-menu {
+    display: flex;
+    margin-top: 27px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .footer-services-list,
+  .footer-about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .footer-logo-column,
+    .footer-links-column {
+      width: 100%;
+    }
+  }
+  

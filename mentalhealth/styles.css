@@ -1,0 +1,147 @@
+
+
+/* Styling for the navigation bar */
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Aligns the list items horizontally */
+  align-items: flex-end; /* Centers the navigation items horizontally */
+}
+
+nav ul li {
+  margin: 0 2px; /* Adds a small space between each menu item */
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline from links */
+  font-size: 10px; /* Makes the text small */
+  color: #0c0a0a; /* Sets text color */
+  padding: 3px 5px; /* Adds a tiny padding around the text */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+  color: #494ba3; /* Changes text color when hovering */
+}
+.main-content {
+  background-color: rgba(255, 251, 239, 1);
+  display: flex;
+  margin: 0 auto;
+  width: 90%; /* Allow it to expand */
+  max-width: 480px; /* Adjust max width for desktop */
+  padding-top: 55px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+
+.top-one {
+  width: 100%;
+  margin-top: 17px;
+}
+.top-image {
+  aspect-ratio: 2.46;
+  object-fit: contain;
+  object-position: left;
+  width: 100%;
+}
+.welcome-header {
+  width: 100%;
+}
+
+
+.hero-image {
+  aspect-ratio: 1.04;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  max-width: 404px;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.cta-button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(4, 67, 12, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cta-button--get-started {
+  margin-top: 20px;
+  width: 129px;
+  padding: 23px 17px;
+}
+
+.welcome-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+  font-family:
+    "Abril Fatface",
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 400;
+  margin: 20px 0 0;
+}
+
+.welcome-description {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-family:
+    Actor,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-weight: 400;
+  margin: 60px 0 0;
+}
+
+.action-buttons {
+  display: flex;
+  margin-top: 35px;
+  width: 100%;
+  max-width: 311px;
+  align-items: stretch;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.cta-button--signup {
+  padding: 23px 35px;
+  white-space: nowrap;
+}
+
+.cta-button--discover {
+  padding: 23px 7px;
+}
+
+.welcome-footer {
+  width: 100%;
+  margin-top: 17px;
+}
+
+.footer-image {
+  aspect-ratio: 2.46;
+  object-fit: contain;
+  object-position: right;
+  width: 100%;
+}
+
