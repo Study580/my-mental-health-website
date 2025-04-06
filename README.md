@@ -29,7 +29,6 @@ Importance: Mental health is crucial for students' well-being.
 
 Research: Many students face mental health challenges but don't seek help due to stigma.
 
-Challenges: Limited access to student-friendly mental health resources.
 
 
 Project Objectives
