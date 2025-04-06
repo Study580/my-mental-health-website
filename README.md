@@ -19,6 +19,7 @@ Research: Many students face mental health challenges but don't seek help due to
 Challenges: Limited access to student-friendly mental health resources.
 
 Project Objectives
+
 Increase Awareness: Educate students about mental health.
 Provide Resources: Share articles, tips, and access to counselors.
 Build Community: Create a safe space for students to connect and share experiences.
